@@ -1,0 +1,47 @@
+# Code MACRO definition
+ISROOT: True     # whether is debug mode
+INTERVAL: 10    # seconds between every Loop
+
+
+# ip needed to be connected
+# E7-2-Access-Node1（West-Lake）   10.245.48.240  192.168.20.13
+# E7-2-Access-Node5（West-Lake-XG801） 10.245.48.28
+# E7-2-Access-Node2（Potala）  10.245.48.25   192.168.20.14
+# E7-2-Access-Node6（Potala-XG801）    10.245.48.30
+# E7-2-Access-Node3（Purple-Moutain）  10.245.48.26   192.168.20.15
+# E7-2-Access-Node7（Purple-Moutain-XG801）    10.245.48.29
+# E7-2-Access-Node4（K2）  10.245.48.27   192.168.20.16
+# show file contents syslog filename mem_check/ponmgrd.log
+# show ala active
+ips:
+#  10.245.48.21: 22
+#  10.245.48.22: 22
+#  10.245.48.23: 22
+#  10.245.48.25: 22
+#  10.245.48.30: 22
+#  10.245.48.26: 22
+  10.245.48.28: 22
+#  10.245.48.29: 22
+#  10.245.48.27: 22
+#  10.245.46.207: 22
+#  10.245.46.223: 22
+#  10.245.48.240: 22
+#
+#  10.247.19.4: 22
+#  10.247.19.5: 22
+#  10.247.19.6: 22
+#  10.247.19.7: 22
+#  10.247.19.8: 22
+#  10.247.19.9: 22
+#  10.247.19.10: 22
+#  10.247.19.13: 22
+#  10.247.19.14: 22
+#  10.247.19.15: 22
+
+# mysql database config
+database:
+  host: '192.168.136.128'
+  port: 3306
+  db_name: 'monitor'
+  user: 'root'
+  password: '123456'
