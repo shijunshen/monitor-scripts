@@ -3,7 +3,7 @@ def crack():
 
 
 if __name__ == '__main__':
-    info = 'XG801-West-Lake Tue Sep 06 15:17:32 2022'
+    info = 'xxx'
     crack_info = info.split()
     # use ecrack.py to get the password
     date = crack_info[1:6]
